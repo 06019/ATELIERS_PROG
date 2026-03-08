@@ -48,6 +48,9 @@ class Parc :
         else :
             print(f"le nombre de places libre est : {x}")
 
+p1=Parc (06,"Bejaia,Algerie",3)
+
+
 
 
 
