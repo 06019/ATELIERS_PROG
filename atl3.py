@@ -56,6 +56,8 @@ v4=Voiture("JDKF259","NISSAN","BLANCHE")
 p1.entrer_voiture(v1)
 p1.entrer_voiture(v2)
 p1.entrer_voiture(v3)
+p1.sortie_voiture(v1)
+
 
 
 
