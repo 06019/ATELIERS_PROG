@@ -14,3 +14,9 @@ class Voiture :
         self.etat = False
         print(f"la voiture : {self.matricule} est sortie")
 
+class Parc :
+    def __init__(self,id,adr,cap):
+        self.identifiant = id
+        self.adresse= adr
+        self.capacite = cap
+        self.liste_voitures = []
