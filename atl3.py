@@ -32,5 +32,17 @@ class Parc :
         voiture.voiture_stocke()
         print ("votre voiture stocke")
 
+    def sortie_voiture(self,voiture):
+        for v in self.liste_voitures:
+            if v.matricule == voiture.matricule:
+                self.liste_voitures.remove(voiture)
+                v.voiture_sortie()
+                print ("votre voiture sortie")
+                return
+        print ("votre voiture elle est deja sortie ou n'existe pas")
+
+
+
+
 
 
