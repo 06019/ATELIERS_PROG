@@ -41,6 +41,12 @@ class Parc :
                 return
         print ("votre voiture elle est deja sortie ou n'existe pas")
 
+    def calculer_nbr_place_lbr (self):
+        x = self.capacite - len(self.liste_voitures)
+        if x == 0:
+            print ("le parc est plien y a plus d'espace")
+        else :
+            print(f"le nombre de places libre est : {x}")
 
 
 
