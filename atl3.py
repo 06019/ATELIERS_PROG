@@ -48,11 +48,14 @@ class Parc :
         else :
             print(f"le nombre de places libre est : {x}")
 
-p1=Parc (06,"Bejaia,Algerie",3)
+p1=Parc ("06","Bejaia,Algerie",3)
 v1=Voiture("MOB06","TOYOTA","GRISE")
 v2=Voiture("QBC26","HONDA","GRISE")
 v3=Voiture("JSK06","FORD","NOIRE")
 v4=Voiture("JDKF259","NISSAN","BLANCHE")
+p1.entrer_voiture(v1)
+p1.entrer_voiture(v2)
+p1.entrer_voiture(v3)
 
 
 
